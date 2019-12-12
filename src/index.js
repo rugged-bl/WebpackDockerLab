@@ -22,7 +22,7 @@ let sentencesCount = function (str) {
 let onInputChange = function () {
   charactersValue.textContent = 'Количество символов в тексте: ' + charactersCount(textarea.value);
   wordsValue.textContent = 'Количество слов в тексте: ' + wordsCount(textarea.value);
-  sentencesValue.textContent = 'Количество преложений в тексте: ' + sentencesCount(textarea.value);
+  sentencesValue.textContent = 'Количество предложений в тексте: ' + sentencesCount(textarea.value);
 };
 
 textarea.addEventListener('input', onInputChange);
